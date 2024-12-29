@@ -145,7 +145,6 @@ unsigned int defaultbg = 256;
 unsigned int defaultfg = 257;
 unsigned int defaultcs = 258;
 static unsigned int defaultrcs = 257;
-unsigned int const buffSize = 255;
 
 /*
  * Default shape of cursor
@@ -250,9 +249,6 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
-	{ MODKEY,               XK_i,           historyQuit,    {.i =  0} },
-	{ MODKEY|ShiftMask,     XK_J,           historyShiftY,  {.i =  1} },
-	{ MODKEY|ShiftMask,     XK_K,           historyShiftY,  {.i = -1} },
 };
 
 /*
