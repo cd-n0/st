@@ -1,6 +1,7 @@
 st
-st.o
-x.o
+*.diff
+*.patch
+*.o
 st-*.tar.gz
 *.rej
 *.orig
